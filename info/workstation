@@ -1,0 +1,51 @@
+Client:
+ Debug Mode: false
+
+Server:
+ Containers: 14
+  Running: 2
+  Paused: 0
+  Stopped: 12
+ Images: 133
+ Server Version: 19.03.5
+ Storage Driver: overlay2
+  Backing Filesystem: extfs
+  Supports d_type: true
+  Native Overlay Diff: true
+ Logging Driver: json-file
+ Cgroup Driver: cgroupfs
+ Plugins:
+  Volume: local
+  Network: bridge host ipvlan macvlan null overlay
+  Log: awslogs fluentd gcplogs gelf journald json-file local logentries splunk syslog
+ Swarm: inactive
+ Runtimes: runc
+ Default Runtime: runc
+ Init Binary: docker-init
+ containerd version: b34a5c8af56e510852c35414db4c1f4fa6172339
+ runc version: 3e425f80a8c931f88e6d94a8c831b9d5aa481657
+ init version: fec3683
+ Security Options:
+  apparmor
+  seccomp
+   Profile: default
+ Kernel Version: 4.15.0-72-generic
+ Operating System: Ubuntu 18.04.3 LTS
+ OSType: linux
+ Architecture: x86_64
+ CPUs: 8
+ Total Memory: 31.36GiB
+ Name: D01RI1900987
+ ID: HVJY:SN2L:LH3Z:EO4D:ZP42:H53X:LWIC:J2VG:PZ4L:BJWX:KDGM:AOPF
+ Docker Root Dir: /var/lib/docker
+ Debug Mode: false
+ HTTP Proxy: http://xxxxx:xxxxx@autoproxy.cec.eu.int:8012
+ HTTPS Proxy: http://xxxxx:xxxxx@autoproxy.cec.eu.int:8012
+ No Proxy: localhost,127.0.0.1,localaddress,.localdomain.com,.jrc.it,.jrc.org,.ec.europa.eu,.testa.eu,.cec.eu.int,.cc.cec,.jrc.eu,10.169.11.29/32,10.169.11.35/32,139.191.0.0/16,emergency.copernicus.eu
+ Registry: https://index.docker.io/v1/
+ Labels:
+ Experimental: false
+ Insecure Registries:
+  127.0.0.0/8
+ Live Restore Enabled: false
+
